@@ -3,10 +3,6 @@ terraform {}
 provider "aws" {
 }
 
-provider "template" {
-
-}
-
 provider "local" {
    
 }
