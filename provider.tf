@@ -1,10 +1,16 @@
 terraform {}
 
-provider "aws" {}
+provider "aws" {
+      source  = "hashicorp/aws"
+      version = ">= 4.0.0"
+}
 
 provider "template" {}
 
-provider "local" {}
+provider "local" {
+     source  = "hashicorp/template"
+      version = ">= 2.2.0"
+}
 
 provider "null" {}
 
