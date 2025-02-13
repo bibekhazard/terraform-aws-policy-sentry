@@ -1,24 +1,11 @@
-terraform {
-  required_version = ">= 1.0.0, < 2.0.0"
-}
+terraform {}
 
-provider "aws" {
-  version = "~> 2.48.0"
-  region  = var.region
-}
+provider "aws" {}
 
-provider "template" {
-  version = "~> 2.1.2"
-}
+provider "template" {}
 
-provider "local" {
-  version = ">=3.0.0"
-}
+provider "local" {}
 
-provider "null" {
-  version = "~> 2.1"
-}
+provider "null" {}
 
-provider "external" {
-  version = "~> 2.0"
-}
+provider "external" {}
